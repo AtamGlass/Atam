@@ -1116,7 +1116,7 @@ flex-direction: column;
     
 }
 
-.footer_item_contact p a{
+.footer_item_contact a{
     margin-left: 20px;
     color: #FFFEFA;
     text-align: left;
@@ -1143,7 +1143,7 @@ flex-direction: column;
     margin: 17px 0;
 }
 
-.footer_item_adres p a{
+.footer_item_adres a{
     margin-left: 20px;
     color: #FFFEFA;
     text-align: left;
@@ -1170,7 +1170,7 @@ flex-direction: column;
     justify-content: left;
 }
 
-.footer_item_gmail p a{
+.footer_item_gmail a{
     margin-left: 20px;
     color: #FFFEFA;
     text-align: left;
@@ -1824,7 +1824,7 @@ flex-direction: column;
         margin-top: 20px;
     }
 
-    .footer_item_contact p a{
+    .footer_item_contact a{
         font-size: 14px;
     }
 
@@ -1833,7 +1833,7 @@ flex-direction: column;
         height: 20px;
     }
 
-    .footer_item_adres p a{
+    .footer_item_adres a{
         font-size: 14px;
     }
 
@@ -1846,7 +1846,7 @@ flex-direction: column;
         width: 20px;
         height: 20px;
     }
-    .footer_item_gmail p a{
+    .footer_item_gmail a{
         font-size: 14px;
     }
 
