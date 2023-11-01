@@ -130,7 +130,7 @@
 
                         
                         <div class="swiper mySwiper advert_slider">
-                            <div class="swiper-wrapper">
+                            <div class="advert_wrapper"> <!---swiper-wrapper-->
                                 <div class="swiper-slide">
                                     <img src="images/advert/mebeller.jpg">
                                 </div>
@@ -770,6 +770,18 @@
 <script>
     $(document).ready(function(){
         $('.swiper-wrapper').slick({
+            dots: true,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 1500
+               
+        })
+    });
+</script>
+
+<script>
+    $(document).ready(function(){
+        $('.advert_wrapper').slick({
             dots: true,
             arrows: false,
             autoplay: true,
