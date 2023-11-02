@@ -387,17 +387,6 @@ header{
     height: 400px;
 }
 
-.swiper-wrapper{
-    width: 600px;
-    height: 400px;
-}
-
-.swiper-wrapper img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
 .advert_slider{
     width: 100%;
     height: 100%;
