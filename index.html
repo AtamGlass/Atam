@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="plagin/slick.css">
     <link rel="stylesheet" href="plagin/slick-theme.css">
+    <link rel="stylesheet" href="https://wowjs.uk/css/libs/animate.css">
 
 </head>
 <body>
@@ -22,7 +23,7 @@
        <div class="auto_container">
         <div class="header_inner">
             <div class="header_box">
-                <div class="header_logo">
+                <div data-wow-iteration="1" data-wow-delay="0.5s" class="header_logo wow bounceInDown center" >
                     <img src="images/hero/Logo.png">
                 </div>
     
@@ -70,7 +71,7 @@
         <div class="hero" id="hero">
             <div class="hero_inner">
 
-                <div class="hero_content">
+                <div  data-wow-iteration="1" data-wow-delay="0.5s" class="hero_content  wow rollIn">
                     <p class="hero_suptitle">10% Discount on first order</p>
                     <h2 class="hero_title">
                         Long-lasting lights,
@@ -789,6 +790,11 @@
                
         })
     });
+</script>
+
+<script src="https://wowjs.uk/dist/wow.min.js"></script>
+<script>
+ new WOW().init();
 </script>
 
 
