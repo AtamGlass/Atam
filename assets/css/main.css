@@ -1632,6 +1632,9 @@ header {
 @media (max-width: 850px) {
 
     /* header  */
+    header  {
+        padding: 0;
+    }
     .header_logo {
         margin: 5px 0;
         height: 50px;
