@@ -205,9 +205,9 @@ header {
 
 .nav_click .menu_line1 {
     width: 100%;
-    -webkit-transform:  rotate(-45deg) translateX(-6px) translateY(-1px);
-    -o-transform: rotate(-45deg) translateX(-6px) translateY(-1px);;
-    transform: rotate(-45deg) translateX(-6px) translateY(-1px);
+    -webkit-transform:  rotate(-45deg) translateX(-5px) translateY(-1px);
+    -o-transform: rotate(-45deg) translateX(-5px) translateY(-1px);;
+    transform: rotate(-45deg) translateX(-5px) translateY(-1px);
     -webkit-transform-origin: top right;
     -o-transform-origin: top right;
     transform-origin: top right;

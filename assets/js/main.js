@@ -114,8 +114,6 @@ productVideo.addEventListener("mouseleave", () => {
     control.getAttribute.remove('controls')
 })
 
-
-
 videoPlay.addEventListener("click", () => {
     if(video.paused){
         video.play();
@@ -136,6 +134,68 @@ videoPlay.addEventListener("click", () => {
 // photo change ==============================================>
 let  btn = document.querySelectorAll(".btn");
 let  portContentOne  = document.querySelectorAll(".port_content_one");
+let portfolioBtn = document.querySelector("#portfolio_btn");
+let furnitureBtn = document.querySelector("#furniture_btn");
+let portBtnDoor = document.querySelector(".port_btn_door");
+let portBtnFur = document.querySelector(".port_btn_furniture");
+let port_one = document.querySelectorAll("#port_one");
+let port_two = document.querySelectorAll("#port_two");
+
+// console.log(portfolioBtn);
+// console.log(furnitureBtn);
+// console.log(portBtnDoor);
+// console.log(portBtnFur);
+console.log(port_one);
+console.log(port_two);
+
+furnitureBtn.addEventListener("click", () => {
+    
+    for(let i = 0; i<port_one.length; i++){
+        if(portBtnDoor.classList != ('active')){
+            portBtnDoor.classList.remove('color');
+            portBtnFur.classList.add('color');
+            port_one[i].classList.remove('active'); 
+            port_two[i].classList.add('active'); 
+            
+    
+        }else{
+            portBtnDoor.classList.add('color');
+            portBtnFur.classList.remove('color');
+            // port_one[i].classList.remove('active');  
+            // port_two[i].classList.add('active');  
+            
+        }
+    }
+
+})
+
+portfolioBtn.addEventListener("click", () => {
+   
+    for(let i = 0; i<port_two.length; i++){
+        if(portBtnFur.classList != ('active')){
+            portBtnDoor.classList.add('color');
+            portBtnFur.classList.remove('color');
+            port_two[i].classList.remove('active'); 
+            port_one[i].classList.add('active'); 
+            
+        }else{
+            portBtnDoor.classList.remove('color');
+            portBtnFur.classList.add('color');
+            // port_two[i].classList.remove('active');  
+            // port_one[i].classList.remove('active');
+        }
+        
+    }
+    
+})
+
+
+
+
+
+
+
+
 
 for(let i=0; i<btn.length; i++){
     btn[i].addEventListener('click', function(){
@@ -156,20 +216,6 @@ for(let i=0; i<btn.length; i++){
                 portContentOne[k].classList.add('active');
             }
         }
-    })
-}
-
-
-
-for(let i=0; i<photosLink.length; i++){
-    photosLink[i].addEventListener('click', function(){
-        for(let j=0; j<photosLink.length; j++){
-            photosLink[j].classList.remove('color');
-        }
-        this.classList.add('color');
-
-    
-
     })
 }
 
