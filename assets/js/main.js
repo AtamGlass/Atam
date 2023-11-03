@@ -148,14 +148,39 @@ let port_two = document.querySelectorAll("#port_two");
 console.log(port_one);
 console.log(port_two);
 
+
+portfolioBtn.addEventListener("click", () => {
+
+    console.log("yok");
+   
+    for(let i = 0; i<port_two.length; i++){
+        if(portBtnFur.classList != ('active')){
+            portBtnDoor.classList.add('color');
+            portBtnFur.classList.remove('color');
+            port_two[i].classList.add('active'); 
+            port_one[i].classList.remove('active'); 
+            
+        }else{
+            portBtnDoor.classList.remove('color');
+            portBtnFur.classList.add('color');
+            // port_two[i].classList.add('active');  
+            // port_one[i].classList.remove('active');
+        }
+        
+    }
+    
+})
+
 furnitureBtn.addEventListener("click", () => {
+
+    console.log("howa");
     
     for(let i = 0; i<port_one.length; i++){
         if(portBtnDoor.classList != ('active')){
             portBtnDoor.classList.remove('color');
             portBtnFur.classList.add('color');
-            port_one[i].classList.remove('active'); 
-            port_two[i].classList.add('active'); 
+            port_one[i].classList.add('active'); 
+            port_two[i].classList.remove('active'); 
             
     
         }else{
@@ -169,25 +194,7 @@ furnitureBtn.addEventListener("click", () => {
 
 })
 
-portfolioBtn.addEventListener("click", () => {
-   
-    for(let i = 0; i<port_two.length; i++){
-        if(portBtnFur.classList != ('active')){
-            portBtnDoor.classList.add('color');
-            portBtnFur.classList.remove('color');
-            port_two[i].classList.remove('active'); 
-            port_one[i].classList.add('active'); 
-            
-        }else{
-            portBtnDoor.classList.remove('color');
-            portBtnFur.classList.add('color');
-            // port_two[i].classList.remove('active');  
-            // port_one[i].classList.remove('active');
-        }
-        
-    }
-    
-})
+
 
 
 
