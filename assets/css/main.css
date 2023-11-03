@@ -67,7 +67,7 @@ header {
     position: absolute;
     width: 100%;
     z-index: 999;
-    padding: 10px 0;
+    padding: 5px 0;
     background: #32352f;
 }
 
@@ -1634,6 +1634,7 @@ header {
     /* header  */
     .header_logo {
         margin: 5px 0;
+        height: 50px;
     }
 
     .header_nav {
@@ -1654,6 +1655,7 @@ header {
 
 
 
+
 }
 
 
@@ -1664,7 +1666,7 @@ header {
 @media (max-width: 778px) {
 
     .header_logo {
-        width: 100px;
+        height: 40px;
     }
 
     /* hero  */
@@ -1675,9 +1677,16 @@ header {
 
 
     /* .advert */
+
+    .advert_box{
+        justify-content: center;
+    }
+
     .advert_item_title {
         font-size: 20px;
     }
+
+    
 
     /* .portfolio */
     .port_content {
@@ -1969,6 +1978,11 @@ header {
     .footer_bottom_text {
         font-size: 14px;
     }
+
+    #myBtn{
+        width: 35px;
+        height: 35px;
+    }
 }
 
 
@@ -2029,7 +2043,7 @@ header {
     }
 
     .port_content {
-        width: calc(100% - 55px);
+        width: calc(100% - 65px);
     }
 
     .port_content:nth-child(4) {
