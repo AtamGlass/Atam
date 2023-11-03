@@ -135,7 +135,7 @@ videoPlay.addEventListener("click", () => {
 
 // photo change ==============================================>
 let  btn = document.querySelectorAll(".btn");
-let  photoContentOne  = document.querySelectorAll(".photo_content_one");
+let  portContentOne  = document.querySelectorAll(".port_content_one");
 
 for(let i=0; i<btn.length; i++){
     btn[i].addEventListener('click', function(){
@@ -147,13 +147,13 @@ for(let i=0; i<btn.length; i++){
         
         let caseFilter = this.getAttribute('case-filter');
 
-        for(let k=0; k<photoContentOne.length; k++){
-            photoContentOne[k].classList.remove('active');
-            photoContentOne[k].classList.add('change');
+        for(let k=0; k<portContentOne.length; k++){
+            portContentOne[k].classList.remove('active');
+            portContentOne[k].classList.add('change');
 
-            if( photoContentOne[k].getAttribute('case-item') == caseFilter){
-                photoContentOne[k].classList.remove('change');
-                photoContentOne[k].classList.add('active');
+            if( portContentOne[k].getAttribute('case-item') == caseFilter){
+                portContentOne[k].classList.remove('change');
+                portContentOne[k].classList.add('active');
             }
         }
     })

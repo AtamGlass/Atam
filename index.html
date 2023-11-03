@@ -1,442 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atam design</title>
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="assets/images/hero/Logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="plagin/slick.css">
-    <link rel="stylesheet" href="plagin/slick-theme.css">
-    <link rel="stylesheet" href="https://wowjs.uk/css/libs/animate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+
 
 </head>
+
 <body>
-    
-    <!-- header start
-    =================== -->
+
+    <!-- header start =================== -->
     <header class="header" id="header">
-       <div class="auto_container">
-        <div class="header_inner">
-            <div class="header_box">
-                <div data-wow-iteration="1" data-wow-delay="0.5s" class="header_logo wow bounceInDown center" >
-                    <img src="images/hero/Logo.png">
-                </div>
-    
-                <ul class="header_nav">
-                    <li class="nav_link" data-scroll="#advert"><a href="#">Aýnalar</a></li>
-                    <li class="nav_link" data-scroll="#photo"><a href="#">Mebeller</a></li>
-                    <li class="nav_link" data-scroll="#product"><a href="#">hyzmatlar</a></li>
-                    <li class="nav_link" data-scroll="#material"><a href="#">önümler</a></li>
-                </ul>
-    
-                <a class="header_about" href="#" data-scroll="#about">Biz barada</a>
-    
-                <div class="toggle_btn">
-                    <span class="menu_line1"></span>
-                    <span class="menu_line2"></span>
-                    <span class="menu_line3"></span>
-                </div>
-            </div> 
-        </div>
+        <div class="auto_container">
+            <div class="header_inner">
+                <div class="header_box">
+                    <div data-wow-iteration="1" data-wow-delay="0.5s" class="header_logo wow bounceInDown center">
+                        <img src="assets/images/hero/Logo.png">
+                    </div>
 
-        <div class="dropdown_menu">
-            <li class="menu_list" data-scroll="#advert">
-                <a class="links" href="#">Aýnalar</a>
-            </li>
-            <li class="menu_list" data-scroll="#photo">
-                <a class="links" href="#">Mebeller</a>
-            </li>
-            <li class="menu_list" data-scroll="#product">
-                <a class="links" href="#">hyzmatlar</a>
-            </li>
-            <li class="menu_list" data-scroll="#material">
-                <a class="links" href="#">önümler</a>
-            </li>
-            <li class="menu_list" data-scroll="#about">
-                <a class="menu_about" href="#">Biz barada</a>
-            </li>
-        </div>
-       </div>
-    </header>
-    <!-- header end
-    =================== -->
+                    <ul class="header_nav">
+                        <li class="nav_link" data-scroll="#advert"><a href="#">Aýnalar</a></li>
+                        <li class="nav_link" data-scroll="#portfolio"><a href="#">Mebeller</a></li>
+                        <li class="nav_link" data-scroll="#product"><a href="#">hyzmatlar</a></li>
+                        <li class="nav_link" data-scroll="#material"><a href="#">önümler</a></li>
+                    </ul>
 
-    <!-- hero start
-    =================== -->
-        <div class="hero" id="hero">
-            <div class="hero_inner">
+                    <a class="header_about" href="#" data-scroll="#about">Biz barada</a>
 
-                <div  data-wow-iteration="1" data-wow-delay="0.5s" class="hero_content  wow rollIn">
-                    <p class="hero_suptitle">10% Discount on first order</p>
-                    <h2 class="hero_title">
-                        Long-lasting lights,
-                        to make your future bright.
-                    </h2>
-                </div>
-
-                <div class="hero_gradient">
-                    <img src="images/hero/gradient.png">
+                    <div class="toggle_btn">
+                        <span class="menu_line1"></span>
+                        <span class="menu_line2"></span>
+                        <span class="menu_line3"></span>
+                    </div>
                 </div>
             </div>
+
+            <div class="dropdown_menu">
+                <li class="menu_list" data-scroll="#advert">
+                    <a class="links" href="#">Aýnalar</a>
+                </li>
+                <li class="menu_list" data-scroll="#portfolio">
+                    <a class="links" href="#">Mebeller</a>
+                </li>
+                <li class="menu_list" data-scroll="#product">
+                    <a class="links" href="#">hyzmatlar</a>
+                </li>
+                <li class="menu_list" data-scroll="#material">
+                    <a class="links" href="#">önümler</a>
+                </li>
+                <li class="menu_list" data-scroll="#about">
+                    <a class="menu_about" href="#">Biz barada</a>
+                </li>
+            </div>
         </div>
-    <!-- hero finish
-    =================== -->
+    </header>
+    <!-- header end  =================== -->
 
 
 
-    <!-- advert start
-    =================== -->
-    <div class="advert" id="advert">
+    <!-- hero start  =================== -->
+    <section class="hero" id="hero">
+        <div class="hero_inner">
+
+            <div data-wow-iteration="1" data-wow-delay="0.5s" class="hero_content wow bounceInLeft">
+                <p class="hero_suptitle">10% Discount on first order</p>
+                <h2 class="hero_title">
+                    Long-lasting lights,
+                    to make your future bright.
+                </h2>
+            </div>
+
+            <div class="hero_gradient">
+                <img src="assets/images/hero/gradient.png">
+            </div>
+        </div>
+    </section>
+    <!-- hero finish =================== -->
+
+    <!-- advert  =================== -->
+    <section class="advert" id="advert">
         <div class="auto_container">
-            <div class="advert_inner">
+            <div class="advert_wrap">
                 <div class="advert_box">
+
                     <div class="advert_item">
-                        <h3 class="advert_item_title">
+                        <h2 class="advert_item_title">
                             AÝNALAR WE GAPYLAR
-                        </h3>
-                        
-                        <div class="swiper mySwiper advert_slider">
+                        </h2>
+                        <div class="swiper mySwiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="images/advert/aynalar.png">
+                                    <div class="swiper-zoom-container">
+                                        <img src="assets/images/advert/aynalar.png" />
+                                    </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="images/advert/aynalar.png">
+                                    <div class="swiper-zoom-container">
+                                        <img src="assets/images/advert/aynalar1.jpg" />
+                                    </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="images/advert/aynalar.png">
+                                    <div class="swiper-zoom-container">
+                                        <img src="assets/images/advert/aynalar2.jpg" />
+                                    </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="images/advert/aynalar.png">
+                                    <div class="swiper-zoom-container">
+                                        <img src="assets/images/advert/aynalar3.jpg" />
+                                    </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="images/advert/aynalar.png">
+                                    <div class="swiper-zoom-container">
+                                        <img src="assets/images/advert/aynalar4.jpg" />
+                                    </div>
                                 </div>
 
-
-
-                                
                             </div>
-                            <div class="swiper-pagination"></div>
-                          </div>
+
+                            <div class="swiper-pagination">
+
+                            </div>
+                        </div>
                     </div>
 
                     <div class="advert_item">
-                        <div class="advert_item_title">MEBELLER</div>
+                        <h2 class="advert_item_title">
+                            MEBELLER
+                        </h2>
+                        <div style="--swiper-navigation-color: #2C4D6D; --swiper-pagination-color: #2C4D6D"
+                            class="swiper mySwiper_two">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="swiper-zoom-container">
+                                        <img src="assets/images/advert/mebeller.jpg" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-zoom-container">
+                                        <img src="assets/images/advert/mebeller1.jpg" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-zoom-container">
+                                        <img src="assets/images/advert/mebeller2.jpg" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-zoom-container">
+                                        <img src="assets/images/advert/mebeller3.jpg" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper-zoom-container">
+                                        <img src="assets/images/advert/mebeller4.jpg" />
+                                    </div>
+                                </div>
 
-                        
-                        <div class="swiper mySwiper advert_slider">
-                            <div class="advert_wrapper">
-                                <div class="swiper-slide">
-                                    <img src="images/advert/mebeller.jpg">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="images/advert/mebeller.jpg">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="images/advert/mebeller.jpg">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="images/advert/mebeller.jpg">
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="images/advert/mebeller.jpg">
-                                </div>
                             </div>
+
                             <div class="swiper-pagination"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- advert finish
-    =================== -->
+    </section>
+    <!-- advert end  =================== -->
 
-
-
-    <!-- photo finish
-    =================== -->
-    <div class="photo" id="photo">
+    <!-- portfolio finis  =================== -->
+    <section class="portfolio" id="portfolio">
         <div class="auto_container">
-            <div class="photo_inner">
-                <div class="photo_box">
-                    <div class="photo_btn">
+            <div class="port_inner">
+                <div class="port_box">
+                    <div class="port_btn">
 
-                        <a class="photo_btn_door btn color"  case-filter="door">Aýnalar we gapylar</a>
-                        <a class="photo_btn_furniture btn" case-filter="furniture">Mebeller</a> 
-                       
+                        <a class="port_btn_door btn color" case-filter="door">Aýnalar we gapylar</a>
+                        <a class="port_btn_furniture btn" case-filter="furniture">Mebeller</a>
+
                     </div>
-                    
-                    
-                    <div class="photo_item">
-                        <!-- photo_content ======================== -->
-                        <div class="photo_content">
 
-                            <div case-item="door" 
-                                id="photo_one" 
-                                class="photo_content_one active">
-                                <img src="images/photo/img1.jpg">
 
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Alýumin aýnalar</h4>
-                                    <p class="photo_info_name">Balkon</p>
+                    <div class="port_item">
+                        <!-- port_content ======================== -->
+                        <div class="port_content">
+
+                            <div case-item="door" id="port_one" class="port_content_one active">
+                                <img src="assets/images/photo/img1.jpg">
+
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Alýumin aýnalar</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
-                                
+
                             </div>
 
-                            <div case-item="furniture" 
-                                id="photo_two" 
-                                class="photo_content_one">
-                                <img src="images/photo/images1.jpg">
+                            <div case-item="furniture" id="port_two" class="port_content_one">
+                                <img src="assets/images/photo/images1.jpg">
 
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Mebeller</h4>
-                                    <p class="photo_info_name">Balkon</p>
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Mebeller</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
                             </div>
 
-                         
+
                         </div>
-                         <!-- photo_content =========== -->
-                        <div class="photo_content">
+                        <!-- port_content =========== -->
+                        <div class="port_content">
 
-                            <div case-item="door" 
-                                id="photo_one" 
-                                class="photo_content_one active">
-                                <img src="images/photo/img2.jpg">
+                            <div case-item="door" id="port_one" class="port_content_one active">
+                                <img src="assets/images/photo/img2.jpg">
 
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Alýumin aýnalar</h4>
-                                    <p class="photo_info_name">Balkon</p>
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Alýumin aýnalar</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
                             </div>
 
-                            <div case-item="furniture" 
-                                id="photo_two" 
-                                class="photo_content_one">
-                                <img src="images/photo/image2.jpg">
+                            <div case-item="furniture" id="port_two" class="port_content_one">
+                                <img src="assets/images/photo/image2.jpg">
 
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Mebeller</h4>
-                                    <p class="photo_info_name">Balkon</p>
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Mebeller</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
                             </div>
 
-                            
+
                         </div>
-                         <!-- photo_content =========================== -->
-                        <div class="photo_content">
-                            <div case-item="door" 
-                                id="photo_one" 
-                                class="photo_content_one active">
-                                <img src="images/photo/img3.jpg">
+                        <!-- port_content =========================== -->
+                        <div class="port_content">
+                            <div case-item="door" id="port_one" class="port_content_one active">
+                                <img src="assets/images/photo/img3.jpg">
 
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Alýumin aýnalar</h4>
-                                    <p class="photo_info_name">Balkon</p>
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Alýumin aýnalar</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
 
                             </div>
 
-                            <div case-item="furniture" id="photo_two" 
-                                class="photo_content_one">
-                                <img src="images/photo/image3.jpg">
+                            <div case-item="furniture" id="port_two" class="port_content_one">
+                                <img src="assets/images/photo/image3.jpg">
 
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Mebeller</h4>
-                                    <p class="photo_info_name">Balkon</p>
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Mebeller</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
                             </div>
 
-                            
+
                         </div>
 
-                         <!-- photo_content ============================ -->
-                        <div class="photo_content">
-                            
-                            <div case-item="door" id="photo_one" 
-                                class="photo_content_one active">
-                                <img src="images/photo/img4.jpg">
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Alýumin aýnalar</h4>
-                                    <p class="photo_info_name">Balkon</p>
+                        <!-- port_content ============================ -->
+                        <div class="port_content">
+
+                            <div case-item="door" id="port_one" class="port_content_one active">
+                                <img src="assets/images/photo/img4.jpg">
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Alýumin aýnalar</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
                             </div>
 
-                            <div case-item="furniture" id="photo_two" 
-                                class="photo_content_one">
-                                <img src="images/photo/image4.jpg">
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Mebeller</h4>
-                                    <p class="photo_info_name">Balkon</p>
+                            <div case-item="furniture" id="port_two" class="port_content_one">
+                                <img src="assets/images/photo/image4.jpg">
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Mebeller</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
                             </div>
 
-                           
+
                         </div>
 
-                         <!-- photo_content =========================== -->
-                        <div class="photo_content">
-                            
-                            <div case-item="door" id="photo_one" 
-                                class="photo_content_one active">
-                                <img src="images/photo/img5.jpg">
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Alýumin aýnalar</h4>
-                                    <p class="photo_info_name">Balkon</p>
+                        <!-- port_content =========================== -->
+                        <div class="port_content">
+
+                            <div case-item="door" id="port_one" class="port_content_one active">
+                                <img src="assets/images/photo/img5.jpg">
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Alýumin aýnalar</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
                             </div>
 
-                            <div case-item="furniture" id="photo_two" 
-                                class="photo_content_one">
-                                <img src="images/photo/images5.jpg">
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Mebeller</h4>
-                                    <p class="photo_info_name">Balkon</p>
+                            <div case-item="furniture" id="port_two" class="port_content_one">
+                                <img src="assets/images/photo/images5.jpg">
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Mebeller</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
                             </div>
 
-                           
+
                         </div>
-                         <!-- photo_content ============================ -->
-                        <div class="photo_content">
-                            
-                            <div case-item="door" id="photo_one" 
-                                class="photo_content_one active">
-                                <img src="images/photo/img6.jpg">
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Alýumin aýnalar</h4>
-                                    <p class="photo_info_name">Balkon</p>
+                        <!-- port_content ============================ -->
+                        <div class="port_content">
+
+                            <div case-item="door" id="port_one" class="port_content_one active">
+                                <img src="assets/images/photo/img6.jpg">
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Alýumin aýnalar</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
                             </div>
 
-                            <div case-item="furniture" id="photo_two" 
-                                class="photo_content_one">
-                                <img src="images/photo/image6.jpg">
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Mebeller</h4>
-                                    <p class="photo_info_name">Balkon</p>
+                            <div case-item="furniture" id="port_two" class="port_content_one">
+                                <img src="assets/images/photo/image6.jpg">
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Mebeller</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
                             </div>
 
-                            
+
                         </div>
 
-                         <!-- photo_content  ===================-->
-                        <div class="photo_content">
-                            
-                            
-                            <div case-item="door" id="photo_one" 
-                                class="photo_content_one active">
-                                <img src="images/photo/img7.jpg">
+                        <!-- port_content  ===================-->
+                        <div class="port_content">
 
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Alýumin aýnalar</h4>
-                                    <p class="photo_info_name">Balkon</p>
+
+                            <div case-item="door" id="port_one" class="port_content_one active">
+                                <img src="assets/images/photo/img7.jpg">
+
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Alýumin aýnalar</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
                             </div>
 
-                            <div case-item="furniture" id="photo_two" 
-                                class="photo_content_one">
-                                <img src="images/photo/image7.jpg">
+                            <div case-item="furniture" id="port_two" class="port_content_one">
+                                <img src="assets/images/photo/image7.jpg">
 
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Mebeller</h4>
-                                    <p class="photo_info_name">Balkon</p>
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Mebeller</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
                             </div>
 
                         </div>
-                         <!-- photo_content  =======================-->
-                        <div class="photo_content">
-                           
-                            <div case-item="door" id="photo_one" 
-                                class="photo_content_one active">
-                                <img src="images/photo/img8.jpg">
+                        <!-- port_content  =======================-->
+                        <div class="port_content">
 
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Alýumin aýnalar</h4>
-                                    <p class="photo_info_name">Balkon</p>
-                                </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
-                                </div>
-                            </div>
+                            <div case-item="door" id="port_one" class="port_content_one active">
+                                <img src="assets/images/photo/img8.jpg">
 
-                            <div case-item="furniture" id="photo_two" 
-                                class="photo_content_one">
-                                <img src="images/photo/image8.jpg">
-
-                                <div class="photo_info">
-                                    <h4 class="photo_info_title">Mebeller</h4>
-                                    <p class="photo_info_name">Balkon</p>
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Alýumin aýnalar</h4>
+                                    <p class="port_info_name">Balkon</p>
                                 </div>
-                                <div class="photo_content_img">
-                                    <img src="images/photo/gradient.png">
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
                                 </div>
                             </div>
 
-                           
+                            <div case-item="furniture" id="port_two" class="port_content_one">
+                                <img src="assets/images/photo/image8.jpg">
+
+                                <div class="port_info">
+                                    <h4 class="port_info_title">Mebeller</h4>
+                                    <p class="port_info_name">Balkon</p>
+                                </div>
+                                <div class="port_content_img">
+                                    <img src="assets/images/photo/gradient.png">
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- photo finish
-    =================== -->
+    </section>
+    <!-- port finish =================== -->
 
-    <!-- material start
-    =================== -->
-    <div class="material" id="material">
+    <!-- material start =================== -->
+    <section class="material" id="material">
         <div class="auto_container">
             <div class="material_inner">
                 <div class="material_box">
@@ -447,7 +440,7 @@
 
                         <div class="material_content">
                             <div class="material_photo">
-                                <img src="images/material/shop1.jpg">
+                                <img src="assets/images/material/shop1.jpg">
                             </div>
                             <div class="material_info">
                                 <h3 class="material_info_name">
@@ -457,14 +450,14 @@
                                     Euismod in pellentesque massa placeratduis ultricies lacus sed
                                 </p>
                                 <p class="material_info_price">
-                                    62.00 TMT – 80.00 TMT 
+                                    62.00 TMT – 80.00 TMT
                                 </p>
                             </div>
                         </div>
 
                         <div class="material_content">
                             <div class="material_photo">
-                                <img src="images/material/shop2.jpg" alt="">
+                                <img src="assets/images/material/shop2.jpg" alt="">
                             </div>
                             <div class="material_info">
                                 <h3 class="material_info_name">
@@ -474,13 +467,13 @@
                                     Euismod in pellentesque massa placeratduis ultricies lacus sed
                                 </p>
                                 <p class="material_info_price">
-                                    62.00 TMT – 80.00 TMT 
+                                    62.00 TMT – 80.00 TMT
                                 </p>
                             </div>
                         </div>
                         <div class="material_content">
                             <div class="material_photo">
-                                <img src="images/material/shop3.jpg">
+                                <img src="assets/images/material/shop3.jpg">
                             </div>
                             <div class="material_info">
                                 <h3 class="material_info_name">
@@ -490,14 +483,14 @@
                                     Euismod in pellentesque massa placeratduis ultricies lacus sed
                                 </p>
                                 <p class="material_info_price">
-                                    62.00 TMT – 80.00 TMT 
+                                    62.00 TMT – 80.00 TMT
                                 </p>
                             </div>
                         </div>
 
                         <div class="material_content">
                             <div class="material_photo">
-                                <img src="images/material/shop4.jpg">
+                                <img src="assets/images/material/shop4.jpg">
                             </div>
                             <div class="material_info">
                                 <h3 class="material_info_name">
@@ -507,7 +500,7 @@
                                     Euismod in pellentesque massa placeratduis ultricies lacus sed
                                 </p>
                                 <p class="material_info_price">
-                                    62.00 TMT – 80.00 TMT 
+                                    62.00 TMT – 80.00 TMT
                                 </p>
                             </div>
                         </div>
@@ -516,55 +509,53 @@
             </div>
 
         </div>
-    </div>
-    <!-- material finish
-    =================== -->
+    </section>
+    <!-- material finish   =================== -->
 
-    <!-- about start
-    =================== -->
-    <div class="about" id="about">
+    <!-- about starte =================== -->
+    <section class="about" id="about">
         <div class="auto_container">
             <div class="about_inner">
                 <div class="about_box">
                     <div class="about_item">
                         <div class="about_info">
-    
+
                             <h5 class="about_info_subtitle">
                                 TÜRKMENISTANDA ILKINJI ÜÝTGEŞIK AÝNALAR
                             </h5>
                             <h2 class="about_info_title">
                                 ATAM GLASS ALUMINIUM
                             </h2>
-    
-                            
+
+
                             <p class="about_info_text">
-                                Nullam sit amet nulla eget sem faucibus 
-                                viverra at quis tortor. Vivamus et odiolacus. 
-                                Vestibulum non metus nunc. Vivamus lacus ex, 
+                                Nullam sit amet nulla eget sem faucibus
+                                viverra at quis tortor. Vivamus et odiolacus.
+                                Vestibulum non metus nunc. Vivamus lacus ex,
                                 rhoncus et ligula scelerisque elitvel, congue
-                                Phasellus feugiat risus nec enim varius semper 
-                                ut at ipsum. Interdum et malesu 
-                                şfames ac ante ipsum primis in faucibus. Maecenas 
-                                pulvinar massa 
-                                volutpat, pellentesque tortor sit amet, 
+                                Phasellus feugiat risus nec enim varius semper
+                                ut at ipsum. Interdum et malesu
+                                şfames ac ante ipsum primis in faucibus. Maecenas
+                                pulvinar massa
+                                volutpat, pellentesque tortor sit amet,
                                 imperdiet arcu. Class aptent taciti socio
                             </p>
-                            
-    
+
+
                             <a data-scroll="#about" class="about_info_link">ABOUT</a>
-    
-                           
+
+
                         </div>
-    
+
                         <div class="about_back_img">
-                            <img src="images/about/img1.png">
+                            <img src="assets/images/about/img1.png">
                         </div>
                     </div>
-    
+
                     <div class="about_photo">
 
                         <div class="about_photo_zoom">
-                            <img class="img_original"  src="images/about/img2.jpg">
+                            <img class="img_original" src="assets/images/about/img2.jpg">
 
                         </div>
                         <div class="about_photo_content">
@@ -575,36 +566,33 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- about finish
-    =================== -->
+    </section>
+    <!-- about finish =================== -->
 
-    <!-- products start
-    =================== -->
-    <div class="product" id="product">
+    <!-- products start =================== -->
+    <section class="product" id="product">
         <div class="auto_container">
             <div class="product_inner">
                 <div class="product_box">
                     <div class="product_video">
-                        <video class="product_video_play video" 
-                            poster="video/yagshy.png" controls>
-                            <source src="video/Atam.mp4">
+                        <video class="product_video_play video" poster="assets/video/yagshy.png" controls>
+                            <source src="assets/video/Atam.mp4">
                         </video>
-    
+
                         <div class="video_play">
                             <div class="video_play_photo">
-                                <img src="images/product/photo.png">
+                                <img src="assets/images/product/photo.png">
                             </div>
                             <div class="video_play_icon">
-                                <img src="images/product/icon.png">
+                                <img src="assets/images/product/icon.png">
                             </div>
-    
+
                             <div class="video_play_pause">
-                                <img src="images/product/pause.png">
+                                <img src="assets/images/product/pause.png">
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="product_item">
                         <div class="product_info">
                             <p class="product_info_name">
@@ -614,15 +602,15 @@
                                 Öndürilýän önümler barada
                             </h3>
                             <p class="product_info_text">
-                                Vivamus et odio lacus. Vestibulum non metus nunc. 
-                                Curabitur bibendum justo soda les,lacinia augue id, 
-                                auctor mauris. Nullam sit amet nulla eget sem 
-                                faucibus viverra at quis tortor. Vivamus lacus ex, 
+                                Vivamus et odio lacus. Vestibulum non metus nunc.
+                                Curabitur bibendum justo soda les,lacinia augue id,
+                                auctor mauris. Nullam sit amet nulla eget sem
+                                faucibus viverra at quis tortor. Vivamus lacus ex,
                                 rhoncus et ligula vel, congue scelerisque elit
                             </p>
-    
+
                         </div>
-    
+
                         <div class="product_list">
                             <ul class="product_list_name">
                                 <li>Fermentum odio eu feugiat</li>
@@ -630,7 +618,7 @@
                                 <li>Aenean euismod elementum</li>
                                 <li>Turpis cursus in hac habitasse</li>
                             </ul>
-    
+
                             <ul class="product_list_name">
                                 <li>Consectetur adipiscing</li>
                                 <li>Lectus vestibulum adipiscing</li>
@@ -642,183 +630,205 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- products finish
-    =================== -->
+    </section>
+    <!-- products finish =================== -->
 
-    <!-- footer start
-    =================== -->
-        <footer class="footer">
-            <div class="auto_container">
-                <div class="footer_inner">
-                    <div class="footer_box">
-                        <div class="footer_info">
-                            <div class="footer_item">
-                                <h3>Web sahypasy</h3>
-                                <ul class="footer_item_list">
-                                    <li><a href="#">Baş sahypa</a></li>
-                                    <li><a href="#">Biz barada</a></li>
-                                    <li><a href="#">Hyzmatlar</a></li>
-                                    <li><a href="#">Goşmaçalar</a></li>
-                                </ul>
+    <!-- footer start =================== -->
+    <footer class="footer">
+        <div class="auto_container">
+            <div class="footer_inner">
+                <div class="footer_box">
+                    <div class="footer_info">
+                        <div class="footer_item">
+                            <h3>Web sahypasy</h3>
+                            <ul class="footer_item_list">
+                                <li><a href="#">Baş sahypa</a></li>
+                                <li><a href="#">Biz barada</a></li>
+                                <li><a href="#">Hyzmatlar</a></li>
+                                <li><a href="#">Goşmaçalar</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer_item">
+                            <h3>Habarlaşmak üçin</h3>
+                            <div class="footer_item_contact">
+                                <div class="footer_number">
+                                    <svg width="19" height="21" viewBox="0 0 19 21" fill="none" xmlns="">
+                                        <g id="Group 123517">
+                                        <g id="Group 123501">
+                                        <path id="Path 51321" d="M13.73 15.5432L12.5636 14.375C11.4648 14.586 10.3508 14.7073 9.23234 14.7379H9.17266C9.09543 14.734 9.02202 14.7031 8.96517 14.6507L8.92157 14.6072C7.40569 13.0431 6.18586 11.2171 5.32122 9.21794L5.2956 9.16017C5.26895 9.08704 5.26895 9.00684 5.2956 8.93371L5.31931 8.8797C5.77709 7.8593 6.31571 6.87715 6.93001 5.94259L6.29899 4.41903L5.52397 2.55163L4.89011 1.02051C4.55016 1.09694 4.2156 1.1957 3.88863 1.31613C3.27014 1.54293 2.68053 1.84187 2.13203 2.20675C1.6149 2.55124 1.23448 3.06569 1.05665 3.66108C1.03486 3.74445 1.01023 3.82881 0.995067 3.91124C0.882831 4.47394 0.880262 5.05299 0.987491 5.61666C1.50146 8.29314 2.50491 10.8518 3.94739 13.1642C4.0753 13.3688 4.20508 13.5735 4.34056 13.7762C4.47605 13.979 4.61725 14.178 4.75653 14.375C6.33988 16.593 8.31993 18.4988 10.5967 19.9963C11.0753 20.3117 11.6108 20.5305 12.1733 20.6406C12.2557 20.6576 12.34 20.6681 12.4262 20.6804C12.6846 20.7059 12.9453 20.6941 13.2003 20.6453C13.5521 20.5782 13.8866 20.4406 14.1838 20.2408C14.7311 19.8744 15.2329 19.4444 15.6789 18.9598C15.9149 18.7034 16.1342 18.4322 16.3355 18.1478L15.1625 16.9748L13.73 15.5432Z" fill="#FFFEFA"/>
+                                        </g>
+                                        <g id="Group 123502">
+                                        <path id="Path 51322" d="M17.2296 5.15928C16.4672 4.0131 15.4851 3.02942 14.3402 2.26508C13.1953 1.50074 11.9104 0.970879 10.5595 0.706193C10.4784 0.68695 10.3943 0.684281 10.3122 0.69827C10.2301 0.71226 10.1517 0.742623 10.0816 0.787616C10.0115 0.832608 9.95117 0.891293 9.90426 0.960118C9.85735 1.02894 9.8248 1.1065 9.80856 1.18819C9.79231 1.26988 9.79265 1.35399 9.80965 1.43553C9.82665 1.51706 9.85996 1.59434 9.9075 1.66274C9.95504 1.73113 10.0159 1.78927 10.0864 1.83362C10.1569 1.87796 10.2356 1.90759 10.3179 1.92082C12.7215 2.39894 14.8369 3.81224 16.1986 5.84987C17.5603 7.8875 18.057 10.3826 17.5792 12.7863C17.56 12.8674 17.5572 12.9515 17.5712 13.0336C17.5852 13.1157 17.6156 13.1942 17.6606 13.2642C17.7056 13.3343 17.7643 13.3946 17.8331 13.4415C17.9019 13.4885 17.9795 13.521 18.0612 13.5373C18.1429 13.5535 18.227 13.5531 18.3085 13.5361C18.3901 13.5191 18.4674 13.4858 18.5358 13.4383C18.6041 13.3908 18.6622 13.3299 18.7066 13.2594C18.7509 13.1889 18.7806 13.1102 18.7938 13.028C19.0665 11.6781 19.0686 10.2876 18.8001 8.93687C18.5316 7.58619 17.9978 6.30222 17.2296 5.15928Z" fill="#FFFEFA"/>
+                                        </g>
+                                        <g id="Group 123503">
+                                        <path id="Path 51323" d="M9.61302 5.46613C11.0759 5.75714 12.3633 6.61716 13.1923 7.85711C14.0213 9.09705 14.3241 10.6154 14.0339 12.0785C14.0179 12.1583 14.0177 12.2405 14.0335 12.3204C14.0493 12.4002 14.0806 12.4762 14.1257 12.5439C14.1709 12.6117 14.2289 12.6699 14.2966 12.7152C14.3642 12.7605 14.4401 12.792 14.52 12.808C14.5602 12.8159 14.6011 12.8197 14.6421 12.8194C14.7852 12.8191 14.9238 12.7693 15.0343 12.6784C15.1449 12.5876 15.2205 12.4613 15.2485 12.321C15.4245 11.4368 15.4245 10.5266 15.2485 9.64233C15.0726 8.7581 14.7242 7.91722 14.2232 7.16767C13.7222 6.41813 13.0785 5.7746 12.3288 5.2739C11.579 4.77321 10.7379 4.42516 9.85365 4.24959C9.69232 4.21767 9.52494 4.25113 9.3883 4.34263C9.25166 4.43414 9.15698 4.57622 9.12507 4.73754C9.09315 4.89887 9.12666 5.06625 9.21817 5.20289C9.30968 5.33953 9.4517 5.43421 9.61302 5.46613Z" fill="#FFFEFA"/>
+                                        </g>
+                                        </g>
+                                    </svg>
+                                        
+                                </div>
+
+                                <a href="tel:+993 61 694222">+993 61 694222</a>
+
                             </div>
-        
-                            <div class="footer_item">
-                                <h3>Habarlaşmak üçin</h3>
-                                <div class="footer_item_contact">
-                                    <div class="footer_number">
-                                        <img src="images/footer/phone.png">
-                                    </div>
-                                    
-                                    <a href="tel:+993 61 694222">+993 61 694222</a>
-                                    
+
+                            <div class="footer_item_adres">
+                                <div class="footer_adres">
+                                    <svg width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.44885 17.2849C11.8406 14.8944 13.7483 12.0646 15.0672 8.95089C15.4576 8.02401 15.6125 7.01497 15.5183 6.01367C15.4242 5.01236 15.0838 4.04991 14.5275 3.21204C13.9712 2.37417 13.2165 1.68693 12.3303 1.21153C11.444 0.736125 10.4539 0.487305 9.44814 0.487305C8.44242 0.487305 7.45229 0.736125 6.56602 1.21153C5.67976 1.68693 4.92469 2.37417 4.36841 3.21204C3.81213 4.04991 3.47173 5.01236 3.37758 6.01367C3.28343 7.01497 3.43871 8.02401 3.82906 8.95089C5.14856 12.0647 7.05669 14.8945 9.44885 17.2849ZM6.60729 5.37772C6.76301 5.01169 6.9874 4.67901 7.26867 4.39774C7.55501 4.11141 7.89499 3.88426 8.26911 3.72929C8.64322 3.57432 9.04427 3.49457 9.44921 3.49457C9.85415 3.49457 10.2552 3.57432 10.6293 3.72929C11.0034 3.88426 11.3434 4.11141 11.6297 4.39774C11.9105 4.67933 12.1346 5.01194 12.2904 5.37772C12.4879 5.84648 12.5664 6.35686 12.5188 6.8633C12.4713 7.36974 12.2992 7.85651 12.0179 8.2803C11.7366 8.70409 11.3547 9.0517 10.9065 9.29216C10.4582 9.53263 9.95752 9.65848 9.44885 9.65848C8.94019 9.65848 8.43949 9.53263 7.99125 9.29216C7.54301 9.0517 7.16114 8.70409 6.87981 8.2803C6.59849 7.85651 6.42645 7.36974 6.37889 6.8633C6.33132 6.35686 6.4098 5.84648 6.60729 5.37772Z" fill="#FFFEFA"/>
+                                        <path d="M15.2158 14.0898H13.3942C13.128 14.4784 12.8518 14.86 12.5653 15.2345H14.464L16.2536 19.3352H2.647L4.43725 15.2345H6.33673C6.04892 14.8593 5.7723 14.4789 5.50635 14.0898H3.68479L0.89624 20.4791H18L15.2158 14.0898Z" fill="#FFFEFA"/>
+                                    </svg>
                                 </div>
-        
-                                <div class="footer_item_adres">
-                                    <div class="footer_adres">
-                                        <img src="images/footer/location.png">
-                                    </div>
-                                    <a href="">
-                                        Aşgabat, G. Kuliýew (Obýezdnaýa) köç., 
-                                        «Begler ýoly» binasy, 1-nji gat, 7-nji dükan.
-                                    </a>
-                                </div>
-        
-                                <div class="footer_item_gmail">
-                                    <div class="footer_gmail">
-                                        <img src="images/footer/mail.png">
-                                    </div>
-                                    <a href="">support@example.com</a>
-                                </div>
+                                <a href="">
+                                    Aşgabat, G. Kuliýew (Obýezdnaýa) köç.,
+                                    «Begler ýoly» binasy, 1-nji gat, 7-nji dükan.
+                                </a>
                             </div>
-        
-                            <div class="footer_item">
-                                <div class="footer_item_logo">
-                                    <div class="footer_logo">
-                                        <img src="images/footer/Logo.png">
-                                    </div>
-            
-                                    <p class="footer_logo_text">
-                                        At erat pellentesque adipiscing
-                                        commodo elit at imperdiet 
-                                    </p>
+
+                            <div class="footer_item_gmail">
+                                <div class="footer_gmail">
+                                    <svg  fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect  fill="#F5F5F5" />
+                                        <g id="Home Page" clip-path="url(#clip0_0_1)">
+                                            <rect width="1920" height="5973" transform="translate(-1064 -5797)"
+                                                fill="url(#paint0_linear_0_1)" />
+                                            <g id="Frame 123536">
+                                                <g id="Footer &#226;&#134;&#146; Section">
+                                                    <g id="Section">
+                                                        <g id="Frame 123533">
+                                                            <g id="Frame 123531">
+                                                                <g id="Frame 123530">
+                                                                    <g id="Group 123522">
+                                                                        <g id="Group 123519">
+                                                                            <g id="Group 123505">
+                                                                                <path id="Path 51324"
+                                                                                    d="M-0.0012207 2.49316V13.8479L6.67471 8.17002L-0.0012207 2.49316Z"
+                                                                                    fill="#FFFEFA" />
+                                                                            </g>
+                                                                            <g id="Group 123506">
+                                                                                <path id="Path 51325"
+                                                                                    d="M7.68668 7.30948L8.69866 8.16965L10.0003 9.27584L11.301 8.16965L12.312 7.30948L18.8727 1.73085L19.9987 0.772461H-0.0012207L1.12484 1.73085L7.68668 7.30948Z"
+                                                                                    fill="#FFFEFA" />
+                                                                            </g>
+                                                                            <g id="Group 123507">
+                                                                                <path id="Path 51326"
+                                                                                    d="M19.9999 13.8469V2.49316L13.324 8.17002L19.9999 13.8469Z"
+                                                                                    fill="#FFFEFA" />
+                                                                            </g>
+                                                                            <g id="Group 123508">
+                                                                                <path id="Path 51327"
+                                                                                    d="M9.99928 10.9967L7.68564 9.03027L1.12573 14.609H18.8719L12.311 9.03027L9.99928 10.9967Z"
+                                                                                    fill="#FFFEFA" />
+                                                                            </g>
+                                                                        </g>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <defs>
+                                            <linearGradient id="paint0_linear_0_1" x1="33.5" y1="1.24535e-06"
+                                                x2="792.389" y2="6099.24" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#292F33" />
+                                                <stop offset="1" stop-color="#32352F" />
+                                            </linearGradient>
+                                            <clipPath id="clip0_0_1">
+                                                <rect width="1920" height="5973" fill="white"
+                                                    transform="translate(-1064 -5797)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
                                 </div>
+                                <a href="">support@example.com</a>
                             </div>
                         </div>
 
-                        <!-- button top ===================== -->
-                        <button onclick="topFunction()" id="myBtn" title="Go to top">
-                            <span>
-                                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M29.9999 24.9999C29.6105 25.0007 29.2331 24.8651 28.9332 24.6166L19.9999 17.1499L11.0499 24.3499C10.8794 24.4884 10.6833 24.5918 10.4727 24.6542C10.2621 24.7165 10.0413 24.7367 9.82293 24.7135C9.60455 24.6902 9.39292 24.6241 9.20019 24.5188C9.00746 24.4135 8.83744 24.2712 8.6999 24.0999C8.56146 23.9295 8.45808 23.7333 8.39569 23.5227C8.3333 23.3122 8.31315 23.0914 8.33638 22.873C8.35961 22.6546 8.42577 22.443 8.53106 22.2502C8.63635 22.0575 8.77869 21.8875 8.9499 21.7499L18.9499 13.6999C19.2481 13.4548 19.6222 13.3208 20.0082 13.3208C20.3943 13.3208 20.7683 13.4548 21.0666 13.6999L31.0666 22.0333C31.2353 22.1732 31.3748 22.345 31.4771 22.5389C31.5793 22.7329 31.6423 22.945 31.6625 23.1633C31.6826 23.3816 31.6595 23.6017 31.5944 23.8111C31.5293 24.0204 31.4236 24.2149 31.2832 24.3833C31.1281 24.5745 30.9326 24.7289 30.7107 24.8356C30.4888 24.9422 30.2461 24.9983 29.9999 24.9999Z"
-                                        fill="white" />
-                                </svg>
-                            </span>
-                    
-                        </button>
-                        <!-- button top ===================== -->
-    
-                        <div class="footer_bottom">
-                            <p class="footer_bottom_text">
-                                Ähli hukuklar goralan by “ATAM Glass & Aluminium” 
-                            </p>
-                            <span>©</span>
+                        <div class="footer_item">
+                            <div class="footer_item_logo">
+                                <div class="footer_logo">
+                                    <img src="assets/images/footer/Logo.png">
+                                </div>
+
+                                <p class="footer_logo_text">
+                                    At erat pellentesque adipiscing
+                                    commodo elit at imperdiet
+                                </p>
+                            </div>
                         </div>
+                    </div>
+
+                    <!-- button top ===================== -->
+                    <button onclick="topFunction()" id="myBtn" title="Go to top">
+                        <span>
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M29.9999 24.9999C29.6105 25.0007 29.2331 24.8651 28.9332 24.6166L19.9999 17.1499L11.0499 24.3499C10.8794 24.4884 10.6833 24.5918 10.4727 24.6542C10.2621 24.7165 10.0413 24.7367 9.82293 24.7135C9.60455 24.6902 9.39292 24.6241 9.20019 24.5188C9.00746 24.4135 8.83744 24.2712 8.6999 24.0999C8.56146 23.9295 8.45808 23.7333 8.39569 23.5227C8.3333 23.3122 8.31315 23.0914 8.33638 22.873C8.35961 22.6546 8.42577 22.443 8.53106 22.2502C8.63635 22.0575 8.77869 21.8875 8.9499 21.7499L18.9499 13.6999C19.2481 13.4548 19.6222 13.3208 20.0082 13.3208C20.3943 13.3208 20.7683 13.4548 21.0666 13.6999L31.0666 22.0333C31.2353 22.1732 31.3748 22.345 31.4771 22.5389C31.5793 22.7329 31.6423 22.945 31.6625 23.1633C31.6826 23.3816 31.6595 23.6017 31.5944 23.8111C31.5293 24.0204 31.4236 24.2149 31.2832 24.3833C31.1281 24.5745 30.9326 24.7289 30.7107 24.8356C30.4888 24.9422 30.2461 24.9983 29.9999 24.9999Z"
+                                    fill="white" />
+                            </svg>
+                        </span>
+
+                    </button>
+                    <!-- button top ===================== -->
+
+                    <div class="footer_bottom">
+                        <p class="footer_bottom_text">
+                            Ähli hukuklar goralan by “ATAM Glass & Aluminium”
+                        </p>
+                        <span>©</span>
                     </div>
                 </div>
             </div>
-        </footer>
-    <!-- footer finish
-    =================== -->
+        </div>
+    </footer>
+    <!-- footer finish =================== -->
 
 
 
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-    <script src="js/main.js"></script>
-
-    <!-- <script src="dist/wow.min.js"></script>
-    <script>
-     new WOW().init();
-    </script> -->
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    
     <script>
         var swiper = new Swiper(".mySwiper", {
-          spaceBetween: 30,
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
+            zoom: true,
+            loop: true,
+
+            // autoplay: {
+            //     delay: 3000,
+            // },
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+
+            },
+        });
+        var swiper = new Swiper(".mySwiper_two", {
+            zoom: true,
+            loop: true,
+
+            // autoplay: {
+            //     delay: 5000,
+            // },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
         });
     </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<script src="plagin/slick.js"></script>
-
-<script>
-    $(document).ready(function(){
-        $('.swiper-wrapper').slick({
-            dots: true,
-            arrows: false,
-            autoplay: true,
-            autoplaySpeed: 1500
-               
-        })
-    });
-</script>
-
-<script>
-    $(document).ready(function(){
-        $('.advert_wrapper').slick({
-            dots: true,
-            arrows: false,
-            autoplay: true,
-            autoplaySpeed: 2000
-               
-        })
-    });
-</script>
-
-<script src="https://wowjs.uk/dist/wow.min.js"></script>
-<script>
- new WOW().init();
-</script>
-
-
-    <!-- <script>
-        
-        const aboutPhotoZoom = document.querySelector(".about_photo_zoom");
-
-        const imgOriginal = document.querySelector(".img_original");
-
-        aboutPhotoZoom.addEventListener("mousemove", (e) => {
-            const x = e.clientX - e.target.offsetLeft;
-            const y = e.clientY - e.target.offsetTop;
-
-            imgOriginal.style.transformOrigin = `${x}px ${y}px`;
-            imgOriginal.style.transform = "scale(2)";
-        })
-
-        aboutPhotoZoom.addEventListener("mouseleave", () => {
-            imgOriginal.style.transformOrigin = "center";
-            imgOriginal.style.transform = "scale(1)";
-        })
-    </script> -->
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
+
 </html>
-
-
