@@ -263,6 +263,13 @@ header {
 }
 
 
+.nav_active{
+    background: #2c4d6d;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+
 /* dropdown_men */
 .dropdown_menu {
     display: none;
@@ -416,7 +423,7 @@ header {
 
 .advert {
     position: relative;
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 .advert_box {
@@ -647,13 +654,13 @@ header {
 
 }
 
-.port_info_name {
+/* .port_info_name {
     color: #FCF8F4;
     font-size: 20px;
     font-weight: 300;
     line-height: 28px;
     margin-top: 15px;
-}
+} */
 
 
 
@@ -1506,9 +1513,9 @@ header {
         font-size: 20px;
     }
 
-    .port_info_name {
+    /* .port_info_name {
         font-size: 18px;
-    }
+    } */
 
 
     /* material  */
@@ -2057,9 +2064,9 @@ header {
         font-size: 18px;
     }
 
-    .port_info_name {
+    /* .port_info_name {
         font-size: 16px;
-    }
+    } */
 
     /* material  */
 
