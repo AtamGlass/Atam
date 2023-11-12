@@ -2053,8 +2053,30 @@ header {
     }
 
     .port_content {
-        width: calc(100% - 65px);
+        width: calc(100% - 100px);
+        height: 320px;
     }
+
+    .port_item{
+        height: 680px;
+        overflow: hidden;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        margin: 0 10px;
+        padding: 0;
+    }
+
+    .port_item::-webkit-scrollbar {
+    width: 4px;
+    }
+    .port_item::-webkit-scrollbar-thumb {
+    background: #2c4d6d;
+    border-radius: 10px;
+    }
+    /* .port_item::-webkit-scrollbar-track {
+    border: none;
+    background: #eee;
+    } */
 
     .port_content:nth-child(4) {
         margin-top: 20px;
